@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Madding</title>
+
+    <style>
+        tr,
+        td,
+        table {
+            background-color: white;
+            border: 2px solid black;
+            border-collapse: collapse;
+            padding: 5px 10px;
+        }
+        div[id="box"] {
+            background-color: white;
+            width: 350px;
+            padding: 10px;
+            margin: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        <div id="container">
+            <h2>Madding</h2>
+            <div id="box">
+                <br>
+                Username : <input type="text" id="username" /> <br><br>
+                Password : <input type="password" id="password" /> <br><br>
+                            <button onclick="toLogin()">Login</button><br>
+            </div>
+            <h2></h2>
+            </div>
+         <div>
+            <table id="table">
+                <thead style="background-color:silver">
+                    <tr>
+                        <td>No</td>
+                        <td>Kegiatan</td>
+                        <td>Hari</td>
+                        <td>Poster</td>
+                        <td>Act</td>
+                    </tr>
+                </thead>
+                <tbody id="body">
+                </tbody>
+                <tfoot id="foot">
+                </tfoot>
+            </table>
+            <h3></h3>
+            <p></p>
+        </div>
+    </center>
+    <script src="mading.js"></script>
+</body>
+
+</html>
